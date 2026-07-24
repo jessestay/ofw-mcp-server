@@ -1,0 +1,42 @@
+Tab,Column,Description,Example
+Messages,date,Message sent date/time (as shown in OFW),2026-07-16 09:42
+Messages,from,Sender display name,Rebecca Davidson
+Messages,to,Recipient(s),Jesse Stay
+Messages,subject,Subject line,Re: Orthodontist
+Messages,thread_id,OFW thread/message id,15270239
+Messages,body_excerpt,Short verbatim excerpt (never paraphrased as fact),"..."
+Messages,ofw_url,Deep link to the OFW message,https://ofw.ourfamilywizard.com/app/messages/15270239
+Messages,first_viewed,When first viewed (read receipt),2026-07-16 10:05
+Calendar,start,Event start (local tz),2026-07-27 20:00
+Calendar,end,Event end,2026-07-31 21:00
+Calendar,title,Event title (verbatim),universal Hollywood vacation
+Calendar,ofw_key,Stable OFW dedupe key,universal-hollywood-vacation|2026-07-27T20:00
+Calendar,google_event_id,Mirrored Google Calendar event id,57lg921husfsbv0furhts70vis
+Calendar,synced_at,Last sync timestamp,2026-07-18T05:00:00-06:00
+Calendar,notes,Free notes,
+Expenses,date,Expense date,2026-07-10
+Expenses,description,Verbatim description,Split a State Parks Pass
+Expenses,amount,Amount,50.00
+Expenses,category,Category,Activities
+Expenses,status,OFW status,Outstanding
+Expenses,ofw_url,Deep link,
+Expenses,reconciled,Reconciled? (y/n),n
+ActionItems,created,Created date,2026-07-13
+ActionItems,title,Action item title,
+ActionItems,owner,Who owns it,
+ActionItems,due,Due date,
+ActionItems,status,Status,Open
+ActionItems,ofw_url,Deep link,
+InfoBank,category,Info-bank category,Medical
+InfoBank,key,Field name,Pediatric dentist
+InfoBank,value,Verbatim value,
+InfoBank,updated,Last updated,
+InfoBank,ofw_url,Deep link,
+SyncLog,ts,Run timestamp,2026-07-18T05:00:00-06:00
+SyncLog,tool,Tool that ran,calendar_pull
+SyncLog,direction,Sync direction,ofw_to_google
+SyncLog,mode,dry_run or live,live
+SyncLog,added,Rows/events added,1
+SyncLog,updated,Rows/events updated,0
+SyncLog,flagged,Removed items flagged (never auto-deleted),0
+SyncLog,source,Source URL/file,https://ofw.ourfamilywizard.com/app/calendar

@@ -1,0 +1,26 @@
+# secrets / config
+.env
+credentials.json
+token.json
+*.token
+state.json
+
+# local OFW exports (legal record — never commit)
+exports/
+*.pdf
+*.ics
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

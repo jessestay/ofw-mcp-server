@@ -1,0 +1,32 @@
+[project]
+name = "ofw-mcp-server"
+version = "0.0.1"
+description = "MCP server for safe, accurate access to your own OurFamilyWizard co-parenting records (calendar/notes dual-sync, message digests, draft replies)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jesse Stay" }]
+keywords = ["mcp", "ourfamilywizard", "co-parenting", "family-law", "calendar-sync"]
+
+dependencies = [
+  "mcp>=1.2.0",
+  "google-api-python-client>=2.0",
+  "google-auth-oauthlib>=1.0",
+  "google-auth>=2.0",
+  "pypdf>=4.0",
+  "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+analyze = ["google-generativeai>=0.7"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+ofw-mcp-server = "ofw_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
